@@ -1,12 +1,12 @@
 <!--2026-10-10 19:55:12-->
 <h3>Social Profiles</h3>
 
-<a target="_blank" href="https://crates.io/users/eastspire" style="text-decoration:none"><code>Crates.io</code></a>
+<a target="_blank" href="https://crates.io/users/vshengbro" style="text-decoration:none"><code>Crates.io</code></a>
 
-<a href="https://ghfind.com/u/eastspire?ref=badge" target="_blank">
+<a href="https://ghfind.com/u/vshengbro?ref=badge" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/eastspire?theme=dark" />
-    <img src="https://ghfind.com/api/card/mini/eastspire?theme=light" alt="GitHub Roast scorecard" width="440" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://ghfind.com/api/card/mini/vshengbro?theme=dark" />
+    <img src="https://ghfind.com/api/card/mini/vshengbro?theme=light" alt="GitHub Roast scorecard" width="440" />
   </picture>
 </a>
 
@@ -62,11 +62,11 @@
 
 </div>
 
-<img alt="" src="https://eastspire.github.io/eastspire/metrics.svg">
+<img alt="" src="https://vshengbro.github.io/vshengbro/metrics.svg">
 
-<img alt="" src="https://count.getloli.com/get/@:eastspire?theme=rule34">
+<img alt="" src="https://count.getloli.com/get/@:vshengbro?theme=rule34">
 
-<img alt="" src="https://github-readme-stats.vercel.app/api?username=eastspire&show_icons=true&hide_title=false&include_all_commits=true&count_private=true">
+<img alt="" src="https://github-readme-stats.vercel.app/api?username=vshengbro&show_icons=true&hide_title=false&include_all_commits=true&count_private=true">
 
 <h3>Sponsor</h3>
 
