@@ -8,18 +8,15 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     permissions:
-      pages: write
-      id-token: write
+      contents: write
     steps:
       - uses: vshengbro/metrics@without-footer
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: none
+          output_action: commit
+          committer_message: "chore: update metrics.svg"
           template: classic
           base: activity, community, repositories, metadata
           config_display: large
@@ -74,7 +71,3 @@ jobs:
           plugin_habits_facts: yes
           plugin_notable: yes
           plugin_notable_from: all
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: /metrics_renders
-      - uses: actions/deploy-pages@v4
