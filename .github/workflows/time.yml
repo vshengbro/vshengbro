@@ -1,12 +1,9 @@
-name: Time
+name: Update README timestamp
 
 on:
   schedule:
     - cron: '0 16 * * *'
   workflow_dispatch:
-
-env:
-  CARGO_TERM_COLOR: always
 
 jobs:
   update_dataset:
@@ -33,12 +30,17 @@ jobs:
           else
             sed -i "1s/.*/<!--${CURRENT_TIME}-->/" README.md
           fi
-          echo "✅ Updated README.md with time: ${CURRENT_TIME}"
-      - name: Amend latest commit and force push
+          echo "Updated README.md with time: ${CURRENT_TIME}"
+
+      - name: Commit and push
         run: |
           set -e
+          if git diff --quiet -- README.md; then
+            echo "README.md already up to date, nothing to commit"
+            exit 0
+          fi
           git add README.md
+          git commit -m "chore: update README timestamp to $(date -u +'%Y-%m-%d %H:%M:%S')"
           BRANCH=$(git branch --show-current)
-          git commit --amend --no-edit
-          git push --force origin HEAD:$BRANCH
-          echo "✅ Amended latest commit and force-pushed to $BRANCH"
+          git push origin HEAD:$BRANCH
+          echo "Pushed timestamp update to $BRANCH"
