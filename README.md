@@ -71,5 +71,5 @@
 <h3>Sponsor</h3>
 
 <p>Thank you for your support! If this project has been helpful, please consider sponsoring via the link below:</p>
-<p><a href="https://buy.stripe.com/cNifZh3rN4mO1eFaGI2cg08" target="_blank">Sponsor via Stripe</a></p>
+<p><a href="https://ltpp.vip/github/pages/docs-pages/pages/#/appreciate.html" target="_blank">Sponsor</a></p>
 <p><em>Your generosity is greatly appreciated!</em></p>
