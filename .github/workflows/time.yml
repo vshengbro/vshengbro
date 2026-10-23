@@ -20,7 +20,7 @@ jobs:
       - name: Configure git
         run: |
           git config user.name "vshengbro"
-          git config user.email "root@ltpp.vip"
+          git config user.email "root@devhub.vip"
 
       - name: Update README.md with current UTC time
         run: |
