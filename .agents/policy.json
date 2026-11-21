@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project": "vshengbro",
+  "kind": "docs",
+  "source_patterns": ["README.md", "metrics.svg", ".github/workflows/*.yml", ".github/workflows/*.yaml"],
+  "checks": {
+    "style": [["python3", ".agents/scripts/check_profile.py"]],
+    "unit": []
+  },
+  "coverage": {
+    "type": "not-applicable",
+    "reason": "A profile README, SVG artifact and hosted workflows have no production source-line unit-test denominator; local Markdown/YAML checks are structural, not runtime coverage."
+  }
+}

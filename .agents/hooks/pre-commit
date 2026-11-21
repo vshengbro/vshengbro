@@ -1,0 +1,5 @@
+#!/bin/sh
+# Repository-local checks; the installed global pre-commit hook dispatches this.
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+exec python3 .agents/scripts/verify.py staged
