@@ -68,6 +68,13 @@
 
 <img alt="" src="https://github-readme-stats.vercel.app/api?username=vshengbro&show_icons=true&hide_title=false&include_all_commits=true&count_private=true">
 
+<a target="_blank" href="https://tokens.ci/u/vshengbro">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://tokens.ci/api/embed/vshengbro/svg?tokens=compact&cost=compact&theme=dark" />
+    <img alt="Tokens Stats" src="https://tokens.ci/api/embed/vshengbro/svg?tokens=compact&cost=compact" />
+  </picture>
+</a>
+
 <h3>Sponsor</h3>
 
 <p>Thank you for your support! If this project has been helpful, please consider sponsoring via the link below:</p>
